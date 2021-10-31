@@ -14,4 +14,4 @@ $ git clone https://github.com/MrSharkSpamBot/WebsitePayload.git
 ```
 
 ## Usage
-This payload can be run on any Linux webserver with php installed on it. To configure the payload go to line 29 and replace IP with your IP and replace PORT with the port on your computer you want connections be sent to and from.
+This payload can be run on any Linux webserver with php installed on it. To configure the payload go to line 29 and replace IP with your IP and replace PORT with the port on your computer you want connections be sent to and from. Now get this file on the webserver that you want, type in the url, hit enter, and vola you have full controll of the webserver.
